@@ -1,0 +1,114 @@
+/* Fuentes */
+@import url('fuentes.css');
+
+@font-face {
+        font-family: 'LietoMe';
+        src: url('/fuentes/LietoMe.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+
+.fondo1 {
+        padding: 0;
+        margin: 0;
+        background-image: url(../img/fondo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        z-index: 995;
+}
+
+.fondo2 {
+        -webkit-transform: scaleY(-1);
+        -moz-transform: scaleY(-1);
+}
+.salto1 {
+        margin-top: 50px;
+}
+.iniciales {
+        width: 10%;
+}
+
+.nombres {
+        font-size: 3rem;
+        font-family: 'LietoMe';
+}
+/* carta */
+
+.sobreAriba {
+        z-index: 999;
+        width: 100%;
+        position: sticky;
+        top: 0;
+}
+.sobreAbajo {
+        z-index: 998;
+        width: 100%;
+        position: sticky;
+        bottom: 0;
+}
+.sobreFondo {
+        z-index: 997;
+        width: 100%;
+        /* alto y ancho y pegador arriba */
+        height: 100vh !important;
+        position: fixed;
+        top: 0;
+        /* fondo */
+        background-image: url(../img/sobre/fondo.png);
+}
+
+
+.botonAbrirSobre
+{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(197, 142, 128);
+        color: aliceblue;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border-style: none;
+        /* sombra */
+        box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.75);
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        /* animación */
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        z-index: 1000;
+}
+
+
+
+/******************  MÓVILES *********************/
+@media (max-width: 480px) {
+        .iniciales {
+                width: 20%;
+        }
+
+        .fondo1 {
+                padding: 0;
+                margin: 0;
+                background-image: url(../img/fondo.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 100%;
+                z-index: auto;
+        }
+
+        .fondo2 {
+                -webkit-transform: scaleY(-1);
+                -moz-transform: scaleY(-1);
+        }
+
+        .salto1 {
+                margin-top: 5%;
+        }
+}
