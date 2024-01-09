@@ -48,6 +48,14 @@
         position: sticky;
         bottom: 0;
 }
+
+.sobreAriba,
+.sobreAbajo {
+    transition: transform 2s ease; /* Define una transición de 1 segundo con un efecto ease (suave) */
+}
+
+
+
 .sobreFondo {
         z-index: 997;
         width: 100%;
