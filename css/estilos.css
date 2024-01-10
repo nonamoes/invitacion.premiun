@@ -51,6 +51,7 @@
         width: 100%;
         position: sticky;
         top: 0;
+        transition: transform 2s ease !important;
 }
 
 .sobreAbajo {
@@ -58,14 +59,8 @@
         width: 100%;
         position: sticky;
         bottom: 0;
-}
-
-.sobreAriba,
-.sobreAbajo {
         transition: transform 2s ease !important;
 }
-
-
 
 .sobreFondo {
         z-index: 990 !important;
