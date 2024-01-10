@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/fuentes.css">
 </head>
+
 <body>
     <!-- PRIMERA PANTALLA 1 AL RECARGAR  MODAL-->
     <div class="modal fade" id="modalSobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -27,17 +28,16 @@
             <div class="modal-content ">
                 <div class="modal-body m-0 p-0">
                     <img id="sobreAriba" src="img/sobre/ariba.png" alt="" class="sobreAriba">
-                    <img id="sobreAribaMobil"  src="img/sobre/aribaMobil.png" alt="" class="sobreAribaMobil">
+                    <img id="sobreAribaMobil" src="img/sobre/aribaMobil.png" alt="" class="sobreAribaMobil">
                     <img class="sobreFondo">
-                    <img id="sobreAbajo"  src="img/sobre/abajo.png" alt="" class="sobreAbajo">
+                    <img id="sobreAbajo" src="img/sobre/abajo.png" alt="" class="sobreAbajo">
                     <img id="sobreAbajoMobil" src="img/sobre/abajoMobil.png" alt="" class="sobreAbajoMobil">
                     <!-- boton para abrir sobre -->
-                    <button onclick="abrirSobre()" type="button" class="botonAbrirSobre">
-                        Abrir 🧡
-                    </button>
-                    <button onclick="abrirSobreMobile()" type="button" class="botonAbrirSobreMobil">
-                        Abrir
-                    </button>
+                    <!-- Imagen para abrir sobre en desktop -->
+                    <img onclick="abrirSobre()" src="img/sobre/btn.png" alt="Abrir Sobre" class="imagenAbrirSobre">
+                    <!-- Imagen para abrir sobre en móvil -->
+                    <img onclick="abrirSobreMobile()" src="img/sobre/btn.png" alt="Abrir Sobre"
+                        class="imagenAbrirSobreMobil">
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@
             </div>
         </div>
         <br>
-    </div>
+        </div>
     </section>
 
     <!-- TEXTO BIENVENIDOS -->
@@ -266,7 +266,7 @@
         <div data-aos="fade" data-aos-offset="300" data-aos-delay="0" style="margin-bottom: 130px">
             <div style="width: 45%; float: left; padding-top: 50px; padding-left: 10%;">
                 <span style="font-size: 23px; font-family: montserrat; text-transform: uppercase">
-                   <b> 16 Dic 2023</b>
+                    <b> 16 Dic 2023</b>
                 </span>
             </div>
             <div data-aos="fade" data-aos-offset="300" data-aos-delay="0" style="width: 10%; float: left;">
@@ -277,7 +277,7 @@
                 <span style="font-size: 25px; font-family: montserrat;">
                     <b>16:00 hr</b>
                 </span>
-          
+
             </div>
         </div>
     </center>
@@ -387,7 +387,7 @@
 
             <br>
             <br>
-           
+
             <!-- img -->
             <div class="m-0 p-0">
                 <img src="img/fondo.svg" class="img-fluid w-100 fondo2" alt="...">

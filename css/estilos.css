@@ -80,28 +80,27 @@
         display: none !important;
 }
 
-.botonAbrirSobre {
-        width: 100px;
-        height: 100px;
-        background-color: rgb(197, 142, 128);
-        color: aliceblue;
-        font-weight: bold;
+
+/* BOTONES  PARA ABRIR */
+.imagenAbrirSobre {
+        width: 15%;
+        height: auto;
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
-        border-radius: 50%;
-        border-style: none;
-        /* sombra */
-        box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.75);
-        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.75));
         /* animación */
         transition: all 0.5s ease;
         -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         z-index: 1000;
+}
+
+.imagenAbrirSobreMobil {
+        cursor: pointer;
+        display: none !important;
 }
 
 
@@ -159,24 +158,21 @@
                 width: 55%;
         }
 
-        .botonAbrirSobreMobil {
+        .imagenAbrirSobre {
+                cursor: pointer;
+                display: none !important;
+        }
+
+        .imagenAbrirSobreMobil {
                 display: block !important;
-                width: 100px;
-                height: 100px;
-                background-color: rgb(49, 143, 45);
-                color: aliceblue;
-                font-weight: bold;
+                width: 25%;
+                height: auto;
                 cursor: pointer;
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                border-radius: 50%;
-                border-style: none;
-                /* sombra */
-                box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.75);
-                -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+                filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.75));
                 /* animación */
                 transition: all 0.5s ease;
                 -webkit-transition: all 0.5s ease;
