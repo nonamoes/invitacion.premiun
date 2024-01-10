@@ -4,21 +4,32 @@ window.onload = function () {
 }
 
 // funcion abrirSobre
-
 function abrirSobre() {
-
         var sobreAriba = document.getElementById('sobreAriba');
-        var sobreAbajo = document.getElementsByClassName('sobreAbajo')[0]; // Selecciona la primera imagen con la clase 'sobreAbajo'
-
-        // Mover la imagen 'sobreAriba' hacia arriba
-        sobreAriba.style.transform = 'translateY(-450px)'; // Cambiar la posición vertical - ajusta este valor según lo necesites
-
-        // Mover la imagen 'sobreAbajo' hacia abajo
-        sobreAbajo.style.transform = 'translateY(450px)'; // Cambiar la posición vertical - ajusta este valor según lo necesites
-
-        // esperar la animación de las imágenes
+        var sobreAbajo = document.getElementById('sobreAbajo');
+        sobreAriba.style.transform = 'translateY(-450px)';
+        sobreAbajo.style.transform = 'translateY(450px)';
         setTimeout(function () {
                 $('#modalSobre').modal('hide');
-        }, 2000); // Tiempo de espera en milisegundos - ajusta este valor según lo necesites
-      
+        }, 2000);
+
+        // REPRODUCCION DE AUDIO
+        var audio = document.getElementById("musicaMp3");
+        audio.play();
+
+}
+function abrirSobreMobile() {
+        var sobreDerecha = document.getElementById('sobreAribaMobil');
+        var sobreIzquierda = document.getElementById('sobreAbajoMobil');
+        sobreDerecha.style.transform = 'translateX(450px)';
+        sobreIzquierda.style.transform = 'translateX(-450px)';
+
+        setTimeout(function () {
+                $('#modalSobre').modal('hide');
+        }, 2000);
+
+         // REPRODUCCION DE AUDIO
+         var audio = document.getElementById("musicaMp3");
+         audio.play();
+
 }
