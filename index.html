@@ -164,7 +164,7 @@
         <center>
             <span style="color:#49434F;font-size:1.5rem;"><b>Nuestra Boda</b></span>
             <br>
-            <span style="color:#49434F;font-size:1.5rem;"><b>25 • 12 • 2024 </b></span>
+            <span style="color:#49434F;font-size:1.5rem;"><b>12 • 12 • 2024</b></span>
         </center>
 
         <center data-aos="fade" data-aos-offset="300" data-aos-delay="0">
@@ -399,6 +399,49 @@
 
 
     <!--script-->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script>
+        var countDownDate = new Date("Dec 15, 2024 16:00:00").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+            effectCircle(days, hours, minutes, seconds);
+        }, 1000);
+        effectCircle = function (d, h, m, s) {
+            const max_sec = 60;
+            const max_min = 60;
+            const max_hour = 24;
+            const max_day = 30;
+            const strokeDashoffset = 439;
+            var circleSVG = document.getElementsByClassName('outer');
+            var valPerDay = strokeDashoffset / max_day; // el valor de cada periodo segun la longitud del circulo
+            var size = strokeDashoffset - (valPerDay * d); // restamos el valor del periodo a la longitud del circulo
+            circleSVG[0].style.strokeDashoffset = size; // establemos nuevo valor al la longitud del circulo
+            var valPerHour = strokeDashoffset / max_hour;
+            var size = strokeDashoffset - (valPerHour * h);
+            circleSVG[1].style.strokeDashoffset = size;
+            // circulo minutos
+            var valPerMin = strokeDashoffset / max_min;
+            var size = strokeDashoffset - (valPerMin * m);
+            circleSVG[2].style.strokeDashoffset = size;
+            // circulo segundos
+            var valPerSecond = strokeDashoffset / max_sec;
+            var size = strokeDashoffset - (valPerSecond * s);
+            circleSVG[3].style.strokeDashoffset = size;
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
