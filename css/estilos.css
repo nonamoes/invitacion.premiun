@@ -97,6 +97,12 @@
         cursor: pointer;
         display: none !important;
 }
+.color_whatsapp {
+        color: #25d366;
+}
+.bg_footer {
+        background-color: aliceblue;
+}
 
 
 

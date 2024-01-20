@@ -15,7 +15,7 @@
 
 h1 {
         font-family: 'Tangerine', serif;
-        font-size: 70px;
+        font-size: 50px;
         color: #BF491F;
 }
 
@@ -133,9 +133,9 @@ h1 {
 .chart h3 {
         font-family: 'Montserrat', sans-serif;
         color: #BF491F;
-        font-size: 1.8em;
+        font-size: 1em;
         position: absolute;
-        bottom: 10px;
+        bottom: 1px;
         text-align: center;
         width: 100%;
 
@@ -147,8 +147,8 @@ h1 {
 
 /* DIV CIRCULO DE FONDO */
 .circle {
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 90px;
         border-radius: 50%;
         z-index: 1;
         border: 10px #CDC7C1 solid;
@@ -158,7 +158,7 @@ h1 {
         z-index: 3;
         text-align: center;
         width: 100%;
-        font-size: 3.8em;
+        font-size: 1.5em;
         font-weight: 700;
         color: #BF491F;
 }
@@ -167,7 +167,7 @@ h1 {
 .outer {
         fill: transparent;
         stroke: #BF491F;
-        stroke-width: 10;
+        stroke-width: 1px;
         /* grosor del borde */
         stroke-dasharray: 439;
         /* numero de relleno del borde, se usa el mismo valor en el script.js */
