@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <!-- PANTALLA 2 -->
+    <!-- PRINCIPAL -->
     <section class="fondo1">
         <!-- NOMBRE DE LOS NOVIOS y LOGO -->
         <center>
@@ -155,23 +155,20 @@
         </center>
         <!-- MUSICA -->
         <div data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="container-fluid text-center">
-            <p class="letra1">
+            <!-- <p class="letra1">
                 Reproduce nuestra canción
-            </p>
-            <audio id="musicaMp3" loop controls>
+            </p> -->
+            <audio class="audioMp3" id="musicaMp3" loop controls>
                 <source src="data/musica.mp3" type="audio/mp3">
             </audio>
         </div>
         <!-- texto -->
         <center>
-            <span style="color:#49434F;font-size:1.5rem;"><b>Nuestra Boda</b></span>
-            <br>
-            <span style="color:#49434F;font-size:1.5rem;"><b>14 • 12 • 2024</b></span>
-        </center>
-
-        <center data-aos="fade" data-aos-offset="300" data-aos-delay="0">
-            <br>
-            <img src="img/flecha.png" class="img-fluid" alt="...">
+            <div class="m-2">
+                <span style="color:#49434F;font-size:1.5rem;"><b>Nuestra Boda</b></span>
+                <br>
+                <span style="color:#49434F;font-size:1.5rem;"><b>14 • DICIEMBRE • 2024</b></span>
+            </div>
         </center>
         <!-- CARUSEL DE FOTOS -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -192,12 +189,67 @@
         <br>
     </section>
 
+    <center data-aos="fade" data-aos-offset="300" data-aos-delay="0">
+        <img src="img/flecha.png" class="img-fluid" width="40px" alt="...">
+    </center>
     <!-- TEXTO BIENVENIDOS -->
     <div data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="container-fluid text-center mt-0 p-3">
         <h1>¡Estás Invitado!</h1>
         <div data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="container text-center letra9">
             <p class="letra9">Nos encantaria que seas parte <br>de este momento tan especial<br>para nosotros. ¡Falta
                 poco!</p>
+        </div>
+        <div class="col-md-12 py-md-5 text-center">
+            <div class="py-md-4">
+                <!-- <img style="width:100%; filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.75));"
+                    src="img/adornos/adorno1_ariba.png" alt=""> -->
+                <div class="row justify-content-start pb-3">
+                    <div
+                        class="col-md-12 ftco-animate p-4 p-lg-5 text-center">
+                        <span class="letra9 mb-4">Con la
+                            bendición de Dios y de nuestros
+                            padres</span>
+                        <!-- Dividir a dos div -->
+                        <div
+                            class="row d-flex justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <b>Padres de la
+                                    novio</b>
+                                <p class="m-0 p-0">Sr.
+                                    Julian Almanza
+                                </p>
+                                <p>Sra. Lidia Suarez</p>
+
+                            </div>
+                            <div class="col-md-6">
+                                <b>Padres del novia</b>
+                                <p class="m-0 p-0">Sr.
+                                    Mario Flores</p>
+                                <p>Sra. Lizeth Velasco
+                                </p>
+                            </div>
+                        </div>
+                        <span class="letra9">Tiene el Agrado
+                            de invitarles al enlace
+                            matrimonial se sus Hijos</span>
+                        <h2 class="mb-4 mt-3">Luis
+                            <span>&amp;</span>
+                            Rosa
+                        </h2>
+
+                            <p class="time mb-3"><span>14 | Dic |
+                                    2024</span></p>
+                        <div data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="container text-center letra9">
+                            <p class="letra9">Con amor y
+                                alegría, los invitamos a ser
+                                testigos de nuestro día
+                                especial.
+                        </div>
+                    </div>
+                </div>
+                <!-- <img style="width:100%; filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.75));"
+                    src="img/adornos/adorno1_abajo.png" alt=""> -->
+            </div>
         </div>
     </div>
 
@@ -207,58 +259,94 @@
             <div class="charts">
                 <div class="row">
                     <!-- <div class="col-md-12"> -->
-                        <div data-aos="fade-up" data-aos-offset="300" class="chart d-flex justify-content-center align-content-center">
-                            <div class="circle center-abs"></div>
-                            <svg class="center-abs" width="150" height="150">
-                                <circle class="outer" cx="75" cy="75" r="45" />
-                            </svg>
-                            <span class="text center-abs" id="days"></span>
-                            <h3>Días</h3>
-                        </div>
+                    <div data-aos="fade-up" data-aos-offset="300"
+                        class="chart d-flex justify-content-center align-content-center">
+                        <div class="circle center-abs"></div>
+                        <svg class="center-abs" width="150" height="150">
+                            <circle class="outer" cx="75" cy="75" r="45" />
+                        </svg>
+                        <span class="text center-abs" id="days"></span>
+                        <h3>Días</h3>
+                    </div>
                     <!-- </div>
                     <div class="col-md-3"> -->
-                        <div data-aos="fade-up" data-aos-offset="300" class="chart d-flex justify-content-center align-content-center">
-                            <div class="circle center-abs"></div>
-                            <svg class="center-abs" width="150" height="150">
-                                <circle class="outer" cx="75" cy="75" r="45" />
-                            </svg>
-                            <span class="text center-abs" id="hours"></span>
-                            <h3>Horas</h3>
-                        </div>
+                    <div data-aos="fade-up" data-aos-offset="300"
+                        class="chart d-flex justify-content-center align-content-center">
+                        <div class="circle center-abs"></div>
+                        <svg class="center-abs" width="150" height="150">
+                            <circle class="outer" cx="75" cy="75" r="45" />
+                        </svg>
+                        <span class="text center-abs" id="hours"></span>
+                        <h3>Horas</h3>
+                    </div>
                     <!-- </div>
                     <div class="col-md-3"> -->
-                        <div data-aos="fade-up" data-aos-offset="300" class="chart d-flex justify-content-center align-content-center">
-                            <div class="circle center-abs"></div>
-                            <svg class="center-abs" width="150" height="150">
-                                <circle class="outer" cx="75" cy="75" r="45" />
-                            </svg>
-                            <span class="text center-abs" id="minutes"></span>
-                            <h3>Minutos</h3>
-                        </div>
+                    <div data-aos="fade-up" data-aos-offset="300"
+                        class="chart d-flex justify-content-center align-content-center">
+                        <div class="circle center-abs"></div>
+                        <svg class="center-abs" width="150" height="150">
+                            <circle class="outer" cx="75" cy="75" r="45" />
+                        </svg>
+                        <span class="text center-abs" id="minutes"></span>
+                        <h3>Minutos</h3>
+                    </div>
                     <!-- </div>
                     <div class="col-md-3"> -->
-                        <div data-aos="fade-up" data-aos-offset="300" class="chart d-flex justify-content-center align-content-center">
-                            <div class="circle center-abs"></div>
-                            <svg class="center-abs" width="150" height="150">
-                                <circle class="outer" cx="75" cy="75" r="45" />
-                            </svg>
-                            <span class="text center-abs" id="seconds"></span>
-                            <h3>Segundos</h3>
-                        </div>
+                    <div data-aos="fade-up" data-aos-offset="300"
+                        class="chart d-flex justify-content-center align-content-center">
+                        <div class="circle center-abs"></div>
+                        <svg class="center-abs" width="150" height="150">
+                            <circle class="outer" cx="75" cy="75" r="45" />
+                        </svg>
+                        <span class="text center-abs" id="seconds"></span>
+                        <h3>Segundos</h3>
+                    </div>
                     <!-- </div> -->
                 </div>
             </div>
         </div>
     </center>
 
-    <center data-aos="fade" data-aos-offset="300" data-aos-delay="0">
+    <!-- <center data-aos="fade" data-aos-offset="300" data-aos-delay="0">
         <img src="https://weddingfy.app/recursos/anillosnegrosfondotrans.gif" class="wow animate__slideInUp"
             style="width: 90px; visibility: visible; animation-name: slideInUp;">
 
-    </center>
+    </center> -->
 
     <!-- DIRECCION -->
-    <center>
+    <section style="overflow: hidden" class="mt-5 bg_ubicacion" id="seccionUbicacion">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 text-center heading-section ftco-animate">
+					<h1>UBICACION</h1>
+				</div>
+			</div>
+		</div>
+    
+		<div class="row justify-content-center">
+			<div class="col-md-6 text-center">
+				<h2 class="fw-normal">Iglesia</h2>
+				<p class="m-2">6:00 PM</p>
+				<img class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+					style=" filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.75));"
+					src="img/iglesia.jpg" alt="">
+				<p class="m-0">Amistad de Saltillo</p>
+				<p>Román Cepeda #139, Nueva España, 25210 Saltillo, Coahuila</p>
+				<p><a class="btn btn-success" href="#">Ver Ubicacion</a></p>
+			</div>
+			<div class="col-md-6 text-center">
+				<h2 class="fw-normal">Recepcion</h2>
+				<p class="m-2">6:00 PM</p>
+				<img class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
+					style=" filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.75));"
+					src="img/salon.jpg" alt="">
+				<p class="m-0">Villa Ferré</p>
+				<p>Blvd. Venustiano Carranza 8550, Valle Hermoso, 25207 Saltillo, Coah.</p>
+				<p><a class="btn btn-success" href="#">Ver Ubicacion</a></p>
+			</div>
+		</div>
+	</section>
+    <!-- <center>
         <h3 data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="h4 wow animate__slideInUp"
             style="visibility: visible; animation-name: slideInUp;">CEREMONIA</h3>
         <p data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="letra9">La ceremonia y celebración
@@ -280,7 +368,7 @@
 
             </div>
         </div>
-    </center>
+    </center> -->
 
 
     <div aling='center' data-aos="fade" data-aos-offset="300" data-aos-delay="0" class="container text-center letra9">
@@ -392,23 +480,21 @@
             </div>
     </section>
     <!-- FOOTER -->
-	<footer class="bg_footer pt-3">
-		<div class="">
-			<div class="w-full items-center justify-center flex text-center ">
-				<a href="https://wa.me/+59177695189/?text=Hola!" rel="noreferrer" target="_blank"><i
-						class="fab fa-whatsapp mx-5 color_whatsapp" style="font-size: 2rem;"
-						aria-hidden="true"></i></a>
-				<a href="https://www.facebook.com/dev.app.sal" rel="noreferrer" target="_blank"><i
-						class="fab fa-facebook mx-5" style="font-size: 2rem;"
-						aria-hidden="true"></i></a>
-			</div>
-			<div class="w-full items-center justify-center flex mt-2 px-4">
-				<div class="text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left">
-					<p class="letra16">Copyright © 2024 | DevApp</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <footer class="bg_footer pt-3">
+        <div class="">
+            <div class="w-full items-center justify-center flex text-center ">
+                <a href="https://wa.me/+59177695189/?text=Hola!" rel="noreferrer" target="_blank"><i
+                        class="fab fa-whatsapp mx-5 color_whatsapp" style="font-size: 2rem;" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/dev.app.sal" rel="noreferrer" target="_blank"><i
+                        class="fab fa-facebook mx-5" style="font-size: 2rem;" aria-hidden="true"></i></a>
+            </div>
+            <div class="w-full items-center justify-center flex mt-2 px-4">
+                <div class="text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left">
+                    <p class="letra16">Copyright © 2024 | DevApp</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!--script-->
