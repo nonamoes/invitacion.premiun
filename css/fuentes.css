@@ -42,6 +42,19 @@ h1 {
         font-size: 54px;
 }
 
+.letra0 {
+        font-family: 'Tangerine', serif;
+        font-size: 30px;
+        color: #74522B;
+
+}
+.letra00 {
+        font-family: 'Raleway';
+        font-size: 20px;
+        color: #74522B;
+
+}
+
 .letra1 {
         font-family: 'Raleway', serif;
         font-size: 16px;
@@ -121,7 +134,7 @@ h1 {
 .chart {
         position: relative;
         width: 25%;
-        height: 260px;
+        height: 1git50px;
 }
 
 .h3 {
