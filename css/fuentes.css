@@ -6,6 +6,7 @@ body {
         background-image: url(../img/fondo/imgFondo.webp);
         background-repeat: no-repeat;
         background-attachment: fixed;
+        /* background-size: 100% 100%; */
         margin: 0;
         padding: 0;
 }
@@ -16,6 +17,7 @@ body {
                 background-image: url(../img/fondo/imgFondoMobil.webp);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
+                background-size: 100% 100%;
                 margin: 0;
                 padding: 0;
         }
