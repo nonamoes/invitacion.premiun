@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Signika:wght@500&display=swap');
 
+body {
+        font-family: 'Signika', sans-serif;
+        line-height: 1.5;
+        background-image: url(../img/fondo/imgFondo.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+}
+
+/* para mobiles */
+@media (max-width: 480px) {
+        body {
+                background-image: url(../img/fondo/imgFondoMobil.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                margin: 0;
+                padding: 0;
+        }
+
+}
+
+
+
 .color1 {
         background-color: #FFF4D4;
 }
@@ -48,6 +72,7 @@ h1 {
         color: #74522B;
 
 }
+
 .letra00 {
         font-family: 'Raleway';
         font-size: 20px;
@@ -134,7 +159,7 @@ h1 {
 .chart {
         position: relative;
         width: 25%;
-        height: 1git50px;
+        height: 150px;
 }
 
 .h3 {
@@ -371,29 +396,29 @@ input[type=submit].large.rounded {
 
 /* ? ----- Cuenta Regresiva ----- */
 #cuenta {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
 }
 
 .simply-section {
-	background: #BF491F;
-	width: 180px;
-	height: 180px;
-	margin: 0 20px;
-	border-radius: 5px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+        background: #BF491F;
+        width: 180px;
+        height: 180px;
+        margin: 0 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .simply-amount {
-	display: block;
-	font-size: 50px;
-	font-weight: 700;
+        display: block;
+        font-size: 50px;
+        font-weight: 700;
 }
 
 .simply-word {
-	font-weight: 300;
-	font-size: 30px;
+        font-weight: 300;
+        font-size: 30px;
 }
