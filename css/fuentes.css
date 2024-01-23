@@ -3,7 +3,7 @@
 body {
         font-family: 'Signika', sans-serif;
         line-height: 1.5;
-        background-image: url(../img/fondo/imgFondo.jpg);
+        background-image: url(../img/fondo/imgFondo.webp);
         background-repeat: no-repeat;
         background-attachment: fixed;
         margin: 0;
@@ -13,7 +13,7 @@ body {
 /* para mobiles */
 @media (max-width: 480px) {
         body {
-                background-image: url(../img/fondo/imgFondoMobil.png);
+                background-image: url(../img/fondo/imgFondoMobil.webp);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 margin: 0;
