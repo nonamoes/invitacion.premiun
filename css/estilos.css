@@ -8,6 +8,9 @@
         font-style: normal;
         font-display: swap;
 }
+.nombresNovios{
+        width:60% !important;
+}
 
 .fondo1 {
         padding: 0;
@@ -141,6 +144,9 @@
                 background-attachment: fixed;
                 margin: 0;
                 padding: 0;
+        }
+        .nombresNovios{
+                width:100% !important;
         }
         .iniciales {
                 width: 20%;
