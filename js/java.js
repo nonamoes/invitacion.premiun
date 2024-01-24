@@ -28,8 +28,18 @@ function abrirSobreMobile() {
                 $('#modalSobre').modal('hide');
         }, 2000);
 
-         // REPRODUCCION DE AUDIO
-         var audio = document.getElementById("musicaMp3");
-         audio.play();
+        // REPRODUCCION DE AUDIO
+        var audio = document.getElementById("musicaMp3");
+        audio.play();
 
 }
+
+
+
+
+
+
+
+
+
+
