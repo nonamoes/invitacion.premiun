@@ -33,10 +33,12 @@
 }
 
 .nombres {
+        src: url('/fuentes/LietoMe.ttf') format('truetype');
         font-size: 3rem;
         font-family: 'LietoMe' !important;
 }
 .nombres2 {
+        src: url('/fuentes/LietoMe.ttf') format('truetype');
         font-size: 3rem;
         font-family: 'LietoMe' !important;
 }
