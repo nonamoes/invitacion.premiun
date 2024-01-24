@@ -34,11 +34,11 @@
 
 .nombres {
         font-size: 3rem;
-        font-family: 'LietoMe';
+        font-family: 'LietoMe' !important;
 }
 .nombres2 {
         font-size: 3rem;
-        font-family: 'LietoMe';
+        font-family: 'LietoMe' !important;
 }
 
 /* carta */
