@@ -153,7 +153,7 @@
 /******************  MÓVILES *********************/
 @media (max-width: 480px) {
         body {
-                background-image: url(../img/fondo/imgFondoMobil.jpg);
+                background-image: url(../img/fondo/fondow.png);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 margin: 0;

@@ -2,7 +2,7 @@
 
 body {
         line-height: 1.5;
-        background-image: url(../img/fondo/fondo2.png);
+        background-image: url(../img/fondo/fondop.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         /* background-size: 100% 100%; */
@@ -15,7 +15,7 @@ body {
 /* para mobiles */
 @media (max-width: 480px) {
         body {
-                background-image: url(../img/fondo/imgFondoMobil.webp);
+                background-image: url(../img/fondo/fondow.png);
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: 100% 100%;
