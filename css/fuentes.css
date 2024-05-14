@@ -2,7 +2,7 @@
 
 body {
         line-height: 1.5;
-        background-image: url(../img/fondo/imgFondo.webp);
+        background-image: url(../img/fondo/fondo.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         /* background-size: 100% 100%; */
@@ -38,13 +38,13 @@ body {
         font-size: 16px;
         line-height: 27px;
         margin-bottom: 25px;
-        color: #BF491F;
+        color: #00223d;
 }
 
 h1 {
         font-family: 'Tangerine', serif;
         font-size: 40px;
-        color: #BF491F;
+        color: #00223d;
 }
 
 .Letra8 {
@@ -140,7 +140,7 @@ h1 {
 }
 
 .color2 {
-        background-color: #BF491F;
+        background-color: #00223d;
 }
 
 .color3 {
@@ -174,7 +174,7 @@ h1 {
 
 .chart h3 {
         font-family: 'Montserrat', sans-serif;
-        color: #BF491F;
+        color: #00223d;
         font-size: 1em;
         position: absolute;
         bottom: 1px;
@@ -202,13 +202,13 @@ h1 {
         width: 100%;
         font-size: 1.5em;
         font-weight: 700;
-        color: #BF491F;
+        color: #00223d;
 }
 
 /* SVG CIRCULO */
 .outer {
         fill: transparent;
-        stroke: #BF491F;
+        stroke: #00223d;
         stroke-width: 1px;
         /* grosor del borde */
         stroke-dasharray: 439;
@@ -245,7 +245,7 @@ input[type=submit] {
         margin: 0 auto;
         margin-top: 20px;
         margin-right: 10px;
-        background-color: #BF491F !important;
+        background-color: #00223d !important;
         color: #FFF;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
@@ -257,14 +257,14 @@ input[type=submit] {
 a.de-button.outline,
 span.de-button.outline,
 input[type=submit].outline {
-        border: solid 1px #BF491F;
-        color: #BF491F;
+        border: solid 1px #00223d;
+        color: #00223d;
 }
 
 a.de-button:hover,
 input[type=submit]:hover {
-        background-color: #BF491F;
-        border-color: #BF491F;
+        background-color: #00223d;
+        border-color: #00223d;
         color: #FFF;
         text-decoration: none;
 }
@@ -282,8 +282,8 @@ input[type=submit].outline.dark-1 {
 a.de-button.outline.dark-1:hover,
 span.de-button.outline.dark-1:hover,
 input[type=submit].outline.dark-1:hover {
-        background-color: #BF491F;
-        border-color: #BF491F;
+        background-color: #00223d;
+        border-color: #00223d;
         color: #FFF;
         text-decoration: none;
 }
@@ -295,7 +295,7 @@ a.de-button.light-1,
 span.de-button.light-1,
 input[type=submit].light-1 {
         background-color: #FFF;
-        color: #BF491F;
+        color: #00223d;
         border: solid 1px #FFF;
 }
 
@@ -309,8 +309,8 @@ input[type=submit].outline.light-1 {
 
 a.de-button.light-1:hover,
 input[type=submit].light-1:hover {
-        background-color: #BF491F;
-        border-color: #BF491F;
+        background-color: #00223d;
+        border-color: #00223d;
         color: #FFF;
         text-decoration: none;
 }
@@ -335,8 +335,8 @@ input[type=submit].outline.light-2 {
 
 a.de-button.light-2:hover,
 input[type=submit].light-2:hover {
-        background-color: #BF491F;
-        border-color: #BF491F;
+        background-color: #00223d;
+        border-color: #00223d;
         color: #FFF;
         text-decoration: none;
 }
@@ -406,7 +406,7 @@ input[type=submit].large.rounded {
 }
 
 .simply-section {
-        background: #BF491F;
+        background: #00223d;
         width: 180px;
         height: 180px;
         margin: 0 20px;
