@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Signika:wght@500&display=swap');
 
+@font-face{
+        font-family: 'Perandory';
+        src: url(Perandory-Condensed.otf);
+}
+
 body {
         line-height: 1.5;
         background-image: url(../img/fondo/fondop.png);
